@@ -127,7 +127,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             }),
             SizedBox(height: 20,),
             Container(
-              height: h * .2,
+              height: h * .3,
               width: w,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(
@@ -137,15 +137,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 color: Colors.grey.shade100,
               ),
             ),
-            SizedBox(height: h * .05,),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: CustomContainer(
-                  text: 'Install Now',
-                  onTap: (){
-                    Get.toNamed('/loginScreen');
-                  }),
-            ),
+
           ],
         ),
       ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:video_downloader/controllers/home_controller.dart';
 import 'package:video_downloader/core/utilis/app_colors.dart';
 import 'package:video_downloader/custom_widgets/custom_container.dart';
 
@@ -11,6 +12,9 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+
+  final controller = Get.put(HomeController());
+
   @override
   Widget build(BuildContext context) {
 
@@ -36,7 +40,7 @@ class _LoginScreenState extends State<LoginScreen> {
             SizedBox(height: h * .1,),
             GestureDetector(
               onTap: (){
-                Get.toNamed('/bottomView');
+                controller.googleSignIn();
               },
               child: Container(
                 height: h * .06,
