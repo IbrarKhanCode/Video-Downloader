@@ -34,6 +34,86 @@ class AppRoutes{
       name: '/profileScreen',
       page: ()=> ProfileScreen(),
     ),
+    GetPage(
+      name: '/facebookPlatform',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
+    GetPage(
+      name: '/profileScreen',
+      page: ()=> ProfileScreen(),
+    ),
 
   ];
 
